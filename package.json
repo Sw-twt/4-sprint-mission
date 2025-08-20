@@ -10,6 +10,7 @@
     "prisma:deploy": "prisma migrate deploy",
     "prisma:seed": "node prisma/seed.js",
     "build": "npm install && npm run prisma:deploy && npm run prisma:seed"
+
   },
   "keywords": [],
   "author": "",
